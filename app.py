@@ -11,8 +11,8 @@ from langchain import HuggingFaceHub
 def main():
     hf_token = "Hugging Face API"
     
-    st.set_page_config(page_title="Ask your PDF")
-    st.header("Ask Your PDF")
+    st.set_page_config(page_title="RAG Pipeline")
+    st.header("RAG-Powered Chatbot for PDF Question Answering")
 
     pdf = st.file_uploader("Upload your pdf", type="pdf")
 
